@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="Spotify_favicon.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <div class="sidebar">
+        <div class="logo">
+            <a href="">
+                <img src="Spotify Logo.png" alt="Logo">
+            </a>
+        </div>
+
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="">
+                        <span class="fa fa-home"></span>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="fa fa-search"></span>
+                        <span>Search</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="fa fas fa-book"></span>
+                        <span>Your Library</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="">
+                        <span class="fa fa-home"></span>
+                        <span>Create Playlist</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="fa fa-search"></span>
+                        <span>Liked Songs</span>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="policies">
+            <ul>
+                <li>
+                    <a href="">Cookies</a>
+                </li>
+                <li>
+                    <a href="">Privacy</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main-container">
+        <div class="topbar">
+            <div class="prev-next-buttons">
+                <button type="button" class="fa fas fa-chevron-left"></button>
+                <button type="button" class="fa fas fa-chevron-right"></button>
+            </div>
+
+            <div class="navbar">
+                <ul>
+                    <li>
+                        <a href=""><a href="web.html">Sign Up</a></li></a>
+                    </li>
+                </ul>
+                <button type="button"><a href="loginpage.html">Login</a></button>
+            </div>
+        </div>
+
+        <div class="spotify-playlists">
+            <h2>Spotify Playlists</h2>
+
+            <div class="list">
+                <div class="item" data-audio="audio1">
+                    <img src="heeriye.jpeg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Today's Top Hits</h4>
+                    <p>Olivia Rodrigo is on top of the Hottest 50!</p>
+                </div>
+
+                <div class="item" data-audio="audio2">
+                    <img src="j.jpeg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>RapCaviar</h4>
+                    <p>New Music from Cardi B, Megan Thee Stallion an...</p>
+                </div>
+
+                <div class="item" data-audio="audio3">
+                    <img src="lover.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>All out 2010s</h4>
+                    <p>The biggest spmgs pf tje 2010s.</p>
+                </div>
+
+                <div class="item" data-audio="audio4">
+                    <img src="maan.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Rock Classics</h4>
+                    <p>Rock Legends & epic songs that continue to...</p>
+                </div>
+
+                <div class="item" data-audio="audio5">
+                    <img src="o_mahi.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Chill Hits</h4>
+                    <p>Kick back to the best new and recent chill hits</p>
+                </div>
+
+                <div class="item" data-audio="audio6">
+                    <img src="s.jpeg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Viva Latino</h4>
+                    <p>Today's top Latin hits elevando nuestra...</p>
+                </div>
+
+                <div class="item" data-audio="audio7">
+                    <img src="sajni.webp" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>All out 80s</h4>
+                    <p>The biggest songs of the 1980s. Cover: Michael...</p>
+                </div>
+                <div class="item" data-audio="audio8">
+                    <img src="naalo.webp" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>All out 80s</h4>
+                    <p>The biggest songs of the 1980s. Cover: Michael...</p>
+                </div>
+                <div class="item" data-audio="audio9">
+                    <img src="omyfriend.webp" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>All out 80s</h4>
+                    <p>The biggest songs of the 1980s. Cover: Michael...</p>
+                </div>
+                <div class="item" data-audio="audio10">
+                    <img src="sweety.webp" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>All out 80s</h4>
+                    <p>The biggest songs of the 1980s. Cover: Michael...</p>
+                </div>
+            </div>
+        </div>
+        
+        </div>
+
+    </div>
+
+
+    <!-- Audio elements -->
+    <audio id="audio1" src="heeriya.mp3"></audio>
+    <audio id="audio2" src="joe.mp3.mpeg"></audio>
+    <audio id="audio3" src="lover.mp3.mpeg"></audio>
+    <audio id="audio4" src="maan.mp3.mpeg"></audio>
+    <audio id="audio5" src="o_mahi.mp3.mpeg"></audio>
+    <audio id="audio6" src="s.mp3.mpeg"></audio>
+    <audio id="audio7" src="sajni.mp3"></audio>
+    <audio id="audio8" src="nalo.mp3"></audio>
+    <audio id="audio9" src="omyfriend.mp3"></audio>
+    <audio id="audio10" src="sweety.mp3"></audio>
+
+    <script src="https://kit.fontawesome.com/ef9a692198.js" crossorigin="anonymous"></script>
+<script>
+    // JavaScript to handle audio play on image click
+    document.querySelectorAll('.item').forEach(item => {
+        item.addEventListener('click', () => {
+            const audioId = item.getAttribute('data-audio');
+            const audio = document.getElementById(audioId);
+
+            // Pause all other audios
+            document.querySelectorAll('audio').forEach(a => {
+                if (a !== audio) {
+                    a.pause();
+                    a.currentTime = 0;
+                }
+            });
+
+            // Toggle play/pause for the clicked audio
+            if (audio.paused) {
+                audio.play();
+            } else {
+                audio.pause();
+            }
+        });
+    });
+</script>
+
+</body>
+
+</html>
